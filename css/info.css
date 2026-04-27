@@ -598,3 +598,125 @@
     width: 100%;
   }
 }
+
+
+@media (max-width: 768px) {
+  * {
+    min-width: unset !important;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .hero-card {
+    grid-template-columns: 1fr !important;
+  }
+  .hero-left {
+    padding: 20px !important;
+    align-items: center;
+    text-align: center;
+  }
+  .navbar {
+    justify-content: center !important;
+    padding: 0 !important;
+    flex-wrap: wrap;
+  }
+  .title-section {
+    margin: 40px 20px !important;
+    text-align: center;
+  }
+  .title-section h1 {
+    font-size: 2.2rem !important;
+  }
+  .info-header {
+    flex-direction: column !important;
+    text-align: center;
+    gap: 20px !important;
+    margin: 30px 10px !important;
+  }
+  .info-header img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .back-button {
+    margin: 20px auto !important;
+    justify-content: center !important;
+  }
+  .mini-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mini-card1 {
+    width: 100%;
+  }
+  .mini-card {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+  .mini-card p {
+    margin-left: 0 !important;
+    font-size: 1rem;
+  }
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0 !important;
+    gap: 20px !important;
+  }
+  .skills i {
+    font-size: 3rem !important;
+  }
+  .timeline::after {
+    left: 15px !important;
+  }
+  .timeline-item {
+    width: 100% !important;
+    left: 0 !important;
+    text-align: left !important;
+    padding-left: 50px !important;
+  }
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0 !important;
+  }
+  .timeline-item::after {
+    left: 5px !important;
+  }
+  .content {
+    width: 100% !important;
+    min-width: unset !important;
+    padding: 20px !important;
+  }
+  .iskustvo,
+  .vjestine {
+    flex-direction: column !important;
+    padding: 30px 20px !important;
+    margin: 0 !important;
+  }
+  .gallery {
+    flex-direction: column;
+    margin-top: 50px !important;
+  }
+  .small-img {
+    width: 90%;
+    max-width: 320px;
+  }
+  .container2 {
+    width: 100% !important;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .card {
+    width: 95% !important;
+    height: auto !important;
+  }
+  .socials {
+    margin: 40px 0 0 0 !important;
+    text-align: center;
+  }
+  .social-icons {
+    justify-content: center;
+  }
+  p, h1, h2, h3, h4 {
+    word-wrap: break-word;
+  }
+}
