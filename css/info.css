@@ -499,3 +499,102 @@
   object-fit: contain;
 }
 
+
+
+
+
+@media (max-width: 992px) {
+  .back-button {
+    margin-right: 0 !important;
+    justify-content: center;
+  }
+  .info-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .info-header img {
+    width: 180px;
+    height: 180px;
+  }
+  .mini-wrapper {
+    justify-content: center;
+  }
+  .mini-card {
+    min-width: unset !important;
+    width: 100%;
+    padding: 30px;
+  }
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0 !important;
+  }
+  .timeline::after {
+    left: 20px;
+  }
+  .timeline-item {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 20px;
+  }
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0 !important;
+    text-align: left;
+  }
+  .timeline-item::after {
+    left: 10px !important;
+  }
+  .content {
+    min-width: unset !important;
+    width: 100%;
+  }
+  .iskustvo,
+  .vjestine {
+    padding: 40px !important;
+  }
+  .container2 {
+    width: 100% !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    width: 90%;
+    height: 300px;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .info-header h1 {
+    font-size: 1.5rem;
+  }
+  .info-header h2 {
+    font-size: 1rem;
+  }
+  .mini-card1 {
+    width: 100%;
+  }
+  .mini-card h3 {
+    font-size: 1.4rem;
+  }
+  .mini-card p {
+    font-size: 1rem;
+    margin-left: 0 !important;
+  }
+  .skills i {
+    font-size: 3rem !important;
+  }
+  .content {
+    padding: 20px;
+  }
+  .container2 {
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .card {
+    width: 100%;
+  }
+}
