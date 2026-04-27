@@ -1,0 +1,501 @@
+.back-button {
+  display: flex;
+  justify-content: left;
+  margin-right: 87%;
+}
+.back-button a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+.info-header {
+  margin: 60px 0 130px 0;
+  font-size: 2rem;
+  color: #6998afed;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.info-header img {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #6998af;
+  
+}
+.info-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #ffffffd8;
+  display: flex;
+  padding-bottom: 20px;
+}
+.info-text .description {
+  margin: 0;
+  max-width: 700px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 530;
+  color: #ffffffe8;
+}
+.info-header h2 {
+  margin: -10px 0 10px 0;
+  font-size: 1.5rem;
+  color: #ffffff2a;
+}
+
+
+
+.mini-wrapper {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.mini-card1 {
+  flex: 1;
+  min-width: 200px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 15px;
+  border-radius: 13px;
+  color: white;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.mini-card1 h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+.mini-card1 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #ffffff9f;
+  margin-bottom: 10px;
+}
+.mini-card1 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+  color: #ffffff88;
+}
+.mini-card1 a p{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+  color: #ffffff9f !important; 
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.mini-card1 a p:hover {
+  color: #355ea597 !important;
+  transition: 0.6s;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  align-items: center;
+  margin: 15px 0 20px 0;
+  color: #3d697f8d;
+}
+.mini-card1:hover {
+  transform: translateY(-5px);
+  background: rgba(144, 172, 185, 0.2);
+  transition: 0.7s;
+}
+
+
+
+.inner-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mini-card {
+  min-width: 1350px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 50px 0 80px 50px;
+  border-radius: 16px;
+  color: white;
+  backdrop-filter: blur(18px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.mini-card h3 {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0 40px 0;
+  font-size: 2rem;
+  color: #ffffffd6;
+}
+.mini-card h4 {
+  margin: 30px 0 35px 30px;
+  font-size: 2rem;
+  font-style: bold;
+  color: #ffffffee;
+}
+
+.mini-card .description {
+  max-width: 900px;
+  font-weight: 600;
+  margin-bottom: -1px;
+  color: #ffffffd8;
+}
+.mini-card h2 {
+  color: #ffffff2f;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 40px 0;
+}
+.mini-card p {
+  margin-left: 30px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 550;
+}
+.mini-card h1 {
+  margin: -10px 0 10px 30px;
+  font-size: 1.2rem;
+  color: #ffffff88;
+}
+
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.skills {
+  display: flex;
+  gap: 70px;
+  margin-top: 45px;
+  margin-left: 90px;
+}
+.skills i {
+  font-size: 5.5rem;
+  gap: 150px;
+  margin-bottom: 50px;
+}
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px 15px;
+  border-radius: 20px;
+
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(6px);
+
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  transition: 0.3s;
+}
+
+/* ikona */
+.skill i {
+  color: #3784aa;
+}
+
+/* hover efekt 🔥 */
+.skill:hover {
+  transform: translateY(-5px);
+  background: rgba(0, 170, 255, 0.2);
+}
+
+
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 65px;
+  margin-bottom: -20px;
+}
+.headerr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 105px;
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+  color: #ffffffeb;
+}
+
+.top-blocks {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  margin: 0 20px 0 20px;
+}
+.hero-card {
+  width: 100%;
+}
+
+
+
+.timeline {
+  position: relative;
+  max-width: 1400px;
+  margin: 30px auto;
+  margin-bottom: 100px;
+}
+/* vertikalna linija */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background: #3d697f8d;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* item */
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 15px 40px;
+}
+
+/* lijevo */
+.timeline-item.left {
+  left: -30%;
+  text-align: right;
+}
+
+/* desno */
+.timeline-item.right {
+  left: 50%;
+}
+
+/* kružić */
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #dae9f0;
+  border: 4px solid #3d697fb5;
+  top: 30px;
+  border-radius: 50%;
+  z-index: 1;
+  left: 154%;
+}
+
+.timeline-item.left::after {
+  right: -10px;
+}
+
+.timeline-item.right::after {
+  left: -10px;
+}
+
+/* kartica */
+.content {
+  background: rgba(255, 255, 255, 0.1);
+  min-width: 450px;
+  padding: 45px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  color: white;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.content h3 {
+  margin: -20px 0 6px 0;
+  color: #3d697f8d;
+}
+.content h4 {
+  margin: 5px 0 15px 0;
+}
+
+
+.iskustvo {
+  display: flex;
+  flex-direction: row;
+  min-width: 450px;
+  padding: 85px;
+  margin-bottom: -80px;
+}
+.iskustvo h3 {
+  margin: 20px 0 6px 0;
+  font-size: 3.7rem;
+  color: #3d697fbd;
+}
+.iskustvo p {
+  margin: 25px 0 15px 80px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 550;
+  color: #fffffff1;
+}
+
+
+.vjestine{
+  display: flex;
+  flex-direction: column;
+  min-width: 450px;
+  padding: 85px;
+  margin-top: -55px;
+  margin-bottom: 30px;
+}
+.vjestine h3 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0 6px 0;
+  font-size: 3.7rem;
+  color: #3d697fbd;
+
+  position: relative;
+  top: 80px; /* 🔥 pomak dolje */
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: #6998af53;
+  height: 350px;
+  margin-top: 5%;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+.container h3 {
+  margin: 75px 0 26px 0;
+  font-size: 1.5rem;
+  color: #ececece6;
+}
+.audio-description {
+  text-align: center;
+  max-width: 1000px;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 550;
+  color: #ecececbb;
+  padding: -20px -30px;
+  margin: 35px 0 30px 0;
+}
+
+
+
+
+
+.container2 {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  width: 1400px;
+  margin-bottom: 90px;
+}
+.container2 h3 {
+  grid-column: 1 / -1;
+}
+/* CARD STYLE */
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  cursor: pointer;
+  width: 450px;
+  height: 350px;
+}
+
+
+/* mali “oblacić” */
+.img-type {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-family: sans-serif;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+}
+/* IMAGE */
+.card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* HOVER EFFECT */
+.card:hover img {
+  transform: scale(1.08);
+  filter: brightness(1.1);
+}
+/* lagani shadow boost na hover */
+.card:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+
+.modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
+
+.modal.show {
+  display: flex;
+}
+
+/* ovo BLOKIRA grid ispod */
+.modal-bg {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.085);
+  z-index: 1;
+}
+
+/* slika iznad svega */
+#modalImg {
+  position: relative;
+  z-index: 2;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+

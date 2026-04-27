@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Predstavljanje poslodavcu</title>
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/info.css" />
+  <link rel="stylesheet" href="css/image.css" />
+
+  <!-- Ikone -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+  <section class="hero-section">
+    <div class="bg-circle bg-circle-1"></div>
+    <div class="bg-circle bg-circle-2"></div>
+
+    <div class="floating-card floating-top">
+      <div class="floating-overlay"></div>
+    </div>
+
+    <div class="floating-card floating-right">
+      <div class="floating-overlay"></div>
+    </div>
+
+    <div class="navbar">
+      <a href="html/info.html">O MENI</a>
+      <a href="html/kontakt.html">KONTAKT</a>
+      <div class="logo">
+        <a href="https://www.ferit.unios.hr/" target="_blank">
+          <img src="images/logo1.png" class="logo-img" alt="Logo" />
+        </a>
+      </div>
+    </div>
+
+    <div class="title-section">
+      <h1><span style="color: #ffffff7f"> PORTFOLIO</span>
+        <p>────────────────────────────</p>
+        PREDSTAVLJANJE POSLODAVCU
+      </h1>
+    </div>
+
+
+    <div class="section-divider">
+      <p>Ova web stranica predstavlja osobni portfolio izrađen s ciljem predstavljanja potencijalnim poslodavcima.
+        Pomoću osnovnih informacija o obrazovanju, vještinama i interesima, želim istaknuti svoju motivaciju, znanje i
+        spremnost za rad u struci.
+      </p>
+    </div>
+
+
+
+    <div class="hero-card">
+      <div class="hero-left">
+        <div class="hero-content">
+          <div class="status">
+            <span style="color: #6998afed; font-weight: 600;">
+              <i class="fa-solid fa-user"></i> Student računarstva | UI/UX Enthusiast </span>
+          </div>
+          <h1>SARA ŠAJKOVSKI</h1>
+          <p class="description">
+            <br />
+            Studentica usmjerena na frontend development i UI/UX dizajn, s fokusom na izradu modernih i korisnički
+            prilagođenih web rješenja.
+          </p>
+          <a href="html/info.html" class="more-link">
+            Saznaj više o meni
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="socials">
+          <p>Prati me:</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100008889871604" target="_blank"><i
+                class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/sara-%C5%A1ajkovski-b49481406/" target="_blank"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/sarasajkovski" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://gitlab.com/sarasajkovski" target="_blank"><i class="fa-brands fa-gitlab"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="gallery">
+          <img src="images/profilna.jpg" alt="Profilna slika" class="small-img"
+            onclick="openImage('images/profilna.jpg', 'Moja slika')" />
+        </div>
+        <div id="imageModal" class="modal" onclick="handleModalClick(event)">
+          <img id="modalImg" class="modal-content" alt="" />
+        </div>
+      </div>
+    </div>
+
+
+    <div class="kolege-section">
+      <h2>OSTALI STUDENTI</h2>
+      <div class="kolege-grid">
+
+        <div class="mini-card1 kolega">
+          <a href="https://bzivkovic56.github.io/MultimedijskaKV/ivona.html" target="_blank">
+            <h3>IVONA ŽIVKOVIĆ</h3>
+          </a>
+        </div>
+
+        <div class="mini-card1 kolega">
+          <a href="https://konstrukcijske-vjezbe-mmt.onrender.com/" target="_blank">
+            <h3>VANESA VARLAM</h3>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    </div>
+  </section>
+
+
+  <section class="footer">
+    <div class="footer-content">
+      <p>Web stranica je izrađena za vrijeme pohađanja
+        <span><i><a href="https://www.ferit.unios.hr/" target="_blank">
+              Fakulteta elektrotehnike, računarstva i
+              informacijskih tehnologija u Osijeku</a></i></span>
+        u sklopu kolegija
+        <span><i><a href="https://moodle.srce.hr/2025-2026/course/view.php?id=233933" target="_blank">Multimedijska
+              tehnika</a></i></span>.</span>
+      </p><br />
+      <p> <span style="font-weight: bold;">2026 FERIT</span></p>
+    </div>
+  </section>
+
+  <script src="js/functions.js"></script>
+</body>
+
+</html>
