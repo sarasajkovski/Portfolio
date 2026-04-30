@@ -14,7 +14,6 @@ body {
 
 
 
-/* SEKCIJA */
 .hero-section {
   background: linear-gradient(135deg, #b1b2c1 0%, #76b8d9 100%);
   position: relative;
@@ -25,7 +24,7 @@ body {
   justify-content: center;
   padding: 40px;    
 }
-/* POZADINSKI KRUGOVI */
+
 .bg-circle {
   position: absolute;
   border-radius: 50%;
@@ -240,8 +239,6 @@ a {
 
 
 
-
-/* sekcija */
 .kolege-section {
   margin-top: 170px;
   text-align: center;

@@ -175,8 +175,8 @@
           <source src="../images/audio.wav" type="audio/wav">
         </audio>
         <p class="audio-description">
-          "Pozdrav, moje ime je Sara Šajkovski. Trenutno sam student 3.godine Računarstva i ovo je moja web stranica 
-          <br/>iz kolegija Multimedijska tehnika na temu "Predstavljanje poslodavcu""
+          "Pozdrav, moje ime je Sara Šajkovski. Trenutno sam student 3.godine Računarstva i ovo je moja web stranica
+          <br />iz kolegija Multimedijska tehnika na temu "Predstavljanje poslodavcu""
         </p>
       </div>
 
@@ -193,6 +193,11 @@
         </div>
 
         <div class="card">
+          <span class="img-type">JPEG</span>
+          <img src="../images/lab.jpg" alt="JPEG slika" onclick="openImage(this.src, this.alt)">
+        </div>
+
+        <div class="card">
           <span class="img-type">JPG</span>
           <img src="../images/jpg.jpg" alt="JPG slika" onclick="openImage(this.src, this.alt)">
         </div>
@@ -201,6 +206,7 @@
           <span class="img-type">GIF</span>
           <img src="../images/gif.gif" alt="GIF animacija" onclick="openImage(this.src, this.alt)">
         </div>
+
       </div>
 
       <div id="imageModal" class="modal" onclick="handleModalClick(event)">
