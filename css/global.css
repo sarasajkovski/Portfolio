@@ -385,61 +385,145 @@ a {
 }
 
 
-@media (max-width: 992px) {
-  .hero-card {
-    grid-template-columns: 1fr !important;
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
   }
-  .title-section {
-    margin: 60px 20px !important;
+  /* HERO CARD */
+  .hero-card {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  /* LIJEVA STRANA */
+  .hero-left {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero-main {
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero-content {
+    margin: 20px 0;
+    max-width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    white-space: normal;
+    margin: 10px 0;
+  }
+
+  .description {
+    min-width: 0;
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+
+  .status {
+    min-width: 0;
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+
+  /* SOCIALS (PRATI ME) */
+  .socials {
+    margin: 30px 0 0 0;
+    margin-left: 0;
     text-align: center;
   }
-  .section-divider {
-    margin: 40px 20px !important;
+
+  .social-icons {
     justify-content: center;
   }
-  .section-divider p {
-    text-align: center;
-  }
-  .hero-left {
-    padding: 40px !important;
+
+  /* DESNA STRANA (SLIKA) */
+  .hero-right {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    padding: 20px;
+    width: 100%;
   }
-  .hero-main {
-    margin: 0 !important;
+
+  .hero-right img {
+    max-width: 80%;
+    height: auto;
+    display: block;
   }
-  .description,
-  .status {
-    min-width: unset !important;
+
+  /* NAVBAR */
+  .navbar {
+    padding: 0;
+    justify-content: center;
+    margin-top: 0;
+    gap: 15px;
   }
-  .socials {
-    margin: 40px 0 0 0 !important;
+
+  /* TITLE */
+  .title-section {
+    margin: 40px 20px;
+  }
+
+  .title-section h1 {
+    font-size: 2.2rem;
+  }
+
+  .title-section p {
+    font-size: 1.1rem;
+  }
+
+  /* DIVIDER */
+  .section-divider {
+    margin: 20px;
+  }
+
+  .section-divider p {
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  /* KONTAKT */
+  .kontakt-card {
+    min-width: 0;
+    width: 90%;
   }
 }
 
 
-@media (max-width: 576px) {
-  .navbar {
-    padding: 0 !important;
-    justify-content: center;
-    margin-top: 10px !important;
-    flex-wrap: wrap;
-  }
-  .title-section h1 {
-    font-size: 2.2rem !important;
-  }
+@media (max-width: 480px) {
+
   .hero-content h1 {
-    font-size: 2rem !important;
-    white-space: normal !important;
+    font-size: 1.6rem;
   }
+
+  .title-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .title-section p {
+    font-size: 1rem;
+  }
+
   .description {
-    font-size: 0.95rem !important;
-    margin-left: 0 !important;
+    font-size: 0.95rem;
   }
+
   .status {
-    font-size: 0.9rem !important;
-    margin-left: 0 !important;
+    font-size: 0.95rem;
   }
+
   .more-link {
-    margin-left: 0 !important;
+    font-size: 1rem;
   }
+
 }
